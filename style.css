@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Aqui comienza header de la pagina inicio*/
+
+@media (max-width: 3000px) {
+    .cabecera-logo:hover {
+            transform: scale(1.4);
+        }
+    
+        .cabecera_img {
+            cursor: pointer;
+            transition: all 0.3s;
+            padding: 10px 3%;
+        }
+    
+        .nav-link:hover {
+            transform: scale(1.2);
+            color: rgb(255, 2, 2);
+        }
+    
+        li {
+            font-size: 25px;
+            text-align: center;
+            display: inline-block;
+            padding-inline: 20px;
+        }
+}
+
+/*-- Imagen y titulo fundacion perros y gatos--*/
+@media (max-width: 3000px) {
+    .section_main {
+        background-image: url("./img/section5.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        }
+
+    .titulo1 {
+        font-family: 'Lobster', cursive;
+        font-size: 60px;
+        color: rgb(96, 2, 65);
+        background-color: rgba(255, 255, 255, 0.467);
+        padding: 10px;
+        border-radius: 20px;
+        
+    }
+}
+
+/* pied de pagina */
+
+.foot2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+}
+    
+.foot2 {
+    padding: 20px;
+}
+
+@media (min-width: 1100px) and (max-width: 3000px) {
+    .foot2 {
+        background-color: rgb(100, 189, 237);
+    }
+    .d-block {
+        height: 150px;
+        margin-left: 26%;
+    }
+}
+@media (min-width: 500px) and (max-width: 1100px) {
+    .foot2 {
+        background-color: darkgray;
+    }
+    .d-block {
+        width: 999px;
+        height: 100px;
+        margin-left: 26%;
+    }
+    .mapa {
+        width: 600px;
+    }
+}
+@media (min-width: 0px) and (max-width: 500px) {
+    .foot2 {
+        background-color:darkcyan ;
+    }
+    .d-block {
+        width: 500px;
+        height: 100px;
+        margin-left: 26%;
+    }
+    .mapa {
+        width: 200px;
+    }
+}
+
+@media (max-width: 3000px) {
+
+    .redes {
+        background: red;
+        padding: 10px;
+        border-radius: 10px;
+        color: whitesmoke;
+    }
+
+    .redes:hover {
+        color: black;
+    }
+
+    .img-logo-pie {
+        transition: 1000ms;
+    }
+
+    .img-logo-pie:hover {
+        transform: rotateY(180deg);
+    }
+}
+
+/*   ----------------------------------------------------
+-----------Pagina NOSOTROS -------------------------*/
+
+.nosotros{
+    background-image: url("./img/nosotros.jpg");
+    background-size: cover;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: ". texto";
+}
+
+.parrafo {
+    grid-area: texto;
+    font-size: 30px;
+    text-align: justify;
+    color: rgb(247, 251, 3);
+    background-color: rgba(14, 117, 177, 0.537);
+    padding: 30px 40px;
+}
+
+.nos1 {
+    border-bottom: 3px solid rgb(67, 250, 1);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+/*   ----------------------------------------------------
+     -----------Pagina Perros -------------------------*/
+
+/*   ----------------------------------------------------
+     -----------Pagina Gatos -------------------------*/
+.d-block1 {
+    size: 100%;
+}
+/*   ----------------------------------------------------
+     -----------Pagina Contacto -------------------------*/
+
+    /*   ----------------------------------------------------
+    -----------       Fin          -------------------------*/
