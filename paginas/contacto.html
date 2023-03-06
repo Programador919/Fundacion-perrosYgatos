@@ -19,139 +19,133 @@
 
 <body>
 
-    <body>
+    <header>
 
-        <header>
-
-            <div class="card border-success m-1 bg-secondary">
-                <div class="card-header bg-transparent ">
-                    <!--header-->
-                    <div class="container header1">
-                        <nav class="navbar navbar-expand-lg navbar-dar ">
-                            <div class="cabecera-logo">
-                                <img class="cabecera_img" src="../img/perrosYgatos.png" alt="logo">
+        <div class="card border-success m-1 bg-secondary">
+            <div class="card-header bg-transparent ">
+                <!--header-->
+                <div class="container header1">
+                    <nav class="navbar navbar-expand-lg navbar-dar ">
+                        <div class="cabecera-logo">
+                            <img class="cabecera_img" src="../img/perrosYgatos.png" alt="logo">
+                        </div>
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="../index.html">FUNDACION</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="./nosotros.html">Nosotros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./perros.html">Perros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./gatos.html">Gatos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Contacto</a>
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="container-fluid">
-                                <a class="navbar-brand" href="../index.html">FUNDACION</a>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                    aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page"
-                                                href="../index.html">Inicio</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link active" href="./nosotros.html">Nosotros</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="./perros.html">Perros</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="./gatos.html">Gatos</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link active" href="#">Contacto</a>
-                                        </li>
-                                    </ul>
+                        </div>
+                    </nav>
+                </div>
+                <!--header-->
+            </div>
+        </div>
+    </header>
+
+
+    <main class="bg-black">
+
+        <section>
+            <div class="card ">
+                <div class="row ">
+                    <div class="col-md-8 bg-black">
+                        <form class="col-md-8 p-5 align-content-center">
+                            <div>
+                                <h4 class="p-3 text-white">CONTACTANOS</h4>
+                                <h5 class="p-3 text-white">Solicitudes, felicitaciones, quejas y reclamos.</h5>
+                            </div class="p-5 text-white">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label text-white">
+                                    <h6>Escribe tu email</h6>
+                                </label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text text-white">
+                                    <h6>Nunca compartiremos su correo electrónico y datos con nadie más.</h6>
                                 </div>
                             </div>
-                        </nav>
+                            <div class="mb-3">
+                                <label for="exampleInputText" class="form-label text-white">
+                                    <h6>Escribe tu numero de telefono celular u otro medio de contacto</h6>
+                                </label>
+                                <input type="text" class="form-control" id="exampleInputPassword1">
+                            </div>
+
+                            <div class="mb-3 ">
+                                <label for="exampleInputText" class="text-white form-label ">
+                                    <h6>Si quieres adoptar o cualquier otro requerimiento, escribenos y cuentanos
+                                        todas tus
+                                        inquietudes, pronto nos pondremos en contacto.</h6>
+                                </label>
+                                <input type="text" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <button type="submit" class="btn btn-primary">ENVIAR</button>
+                        </form>
                     </div>
-                    <!--header-->
-                </div>
-        </header>
-
-
-        <main class="bg-black">
-
-            <section class=" row d-flex justify-content-center p-5">
-                <form style="width: 1000px;" class="col-md-6">
-                    <div>
-                        <h2 class="p-5 text-white">CONTACTANOS</h2>
-                        <h3 class="p-5 text-white">Solicitudes, felicitaciones, quejas y reclamos.</h3>
-                    </div class="p-5 text-white">
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label text-white">
-                            <h4>Escribe tu email</h4>
-                        </label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text text-white">
-                            <h6>Nunca compartiremos su correo electrónico y datos con nadie más.</h6>
+                    <div class="col-md-4 bg-success ">
+                        <div class="card-body1 targeta ">
+                            <iframe class="mapa p-5  " style="max-width: 100%;"
+                                src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d63639.09202643326!2d-75.74134765957857!3d4.513850760354171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d4.5100944!2d-75.7092438!4m5!1s0x8e38f5ade6653bc1%3A0xc2c6ca4ab95d8808!2sArmenia%2C%20Quind%C3%ADo!3m2!1d4.5350003999999995!2d-75.6756888!5e0!3m2!1ses!2sco!4v1677723452114!5m2!1ses!2sco"
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
                         </div>
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleInputText" class="form-label text-white">
-                            <h4>Escribe tu numero de telefono celular u otro medio de contacto</h4>
-                        </label>
-                        <input type="text" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <fieldset></fieldset>
-                    <div class="mb-3 ">
-                        <label for="exampleInputText" class="text-white form-label ">
-                            <h6>Si quieres adoptar o cualquier otro requerimiento, escribenos y cuentanos todas tus
-                                inquietudes, pronto nos pondremos en contacto.</h6>
-                        </label>
-                        <input type="text" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <button type="submit" class="btn btn-primary">ENVIAR</button>
-                </form>
-                <div class="col-md-6 d-flex justify-content-center bg-info">
-                    <iframe class="mapa"
-                        src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d63639.09202643326!2d-75.74134765957857!3d4.513850760354171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d4.5100944!2d-75.7092438!4m5!1s0x8e38f5ade6653bc1%3A0xc2c6ca4ab95d8808!2sArmenia%2C%20Quind%C3%ADo!3m2!1d4.5350003999999995!2d-75.6756888!5e0!3m2!1ses!2sco!4v1677723452114!5m2!1ses!2sco"
-                        width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </section>
-        </main>
-        <hr>
-
-        </main>
-
-
-        <footer>
-            <div class="card-footer bg-transparent border-success">
-                <div class="row foot2 card-footer  border-success text-center ">
-                    <div class="col-md-4 ">
-                        <img class="img-logo-pie" src="../img/logo3.png" alt="logo">
-                    </div>
-
-                    <div class="col-md-4">
-                        <h4>«<i class="fa-regular fa-copyright"></i>Derechos recervados de autor - Programador919 -
-                            Colombia 2023»</h4>
-                    </div>
-
-                    <div class="col-md-4">
-                        <span class="redes"><i class="fa-brands fa-facebook"></i></span>
-                        <span class="redes"><i class="fa-brands fa-twitter"></i></span>
-                        <span class="redes"><i class="fa-brands fa-instagram"></i></span>
-                        <span class="redes"><i class="fa-brands fa-github"></i></span>
-                        <span class="redes"><i class="fa-brands fa-linkedin"></i></span>
-                    </div>
                 </div>
             </div>
+        </section>
+
+    </main>
+    <hr>
+
+
+    <footer>
+        <div class="card-footer bg-transparent border-success">
+            <div class="row foot2 card-footer  border-success text-center ">
+                <div class="col-md-4 ">
+                    <img class="img-logo-pie" src="../img/logo3.png" alt="logo">
+                </div>
+
+                <div class="col-md-4">
+                    <h6>«<i class="fa-regular fa-copyright"></i>Derechos recervados de autor - Programador919 -
+                        Colombia 2023»</h6>
+                </div>
+
+                <div class="col-md-4">
+                    <span class="redes"><i class="fa-brands fa-facebook"></i></span>
+                    <span class="redes"><i class="fa-brands fa-twitter"></i></span>
+                    <span class="redes"><i class="fa-brands fa-instagram"></i></span>
+                    <span class="redes"><i class="fa-brands fa-github"></i></span>
+                    <span class="redes"><i class="fa-brands fa-linkedin"></i></span>
+                </div>
             </div>
-        </footer>
-        <!--header
-        <div class="card border-success mb-3" >
-            <div class="card-header bg-transparent border-success">Header</div>
-            <div class="card-body text-success">
-                <h5 class="card-title">Success card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                    content.</p>
-            </div>
-            <div class="card-footer bg-transparent border-success">Footer</div>
         </div>
-    -->
+    </footer>
 
 
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-            crossorigin="anonymous"></script>
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
 
 </html>

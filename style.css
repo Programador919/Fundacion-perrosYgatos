@@ -23,7 +23,7 @@
         }
     
         li {
-            font-size: 25px;
+            font-size: 20px;
             text-align: center;
             display: inline-block;
             padding-inline: 20px;
@@ -66,7 +66,7 @@
 }
     
 .foot2 {
-    padding: 20px;
+    padding: 10px;
 }
 
 @media (min-width: 1100px) and (max-width: 3000px) {
@@ -77,6 +77,10 @@
         height: 150px;
         margin-left: 26%;
     }
+   .mapa {
+    width: 700px;
+    height: 500px;
+   }
 }
 @media (min-width: 500px) and (max-width: 1100px) {
     .foot2 {
@@ -89,6 +93,7 @@
     }
     .mapa {
         width: 600px;
+        height: 400px;
     }
 }
 @media (min-width: 0px) and (max-width: 500px) {
@@ -101,7 +106,8 @@
         margin-left: 26%;
     }
     .mapa {
-        width: 200px;
+        width: 500px;
+        height: 300px;
     }
 }
 
@@ -141,7 +147,7 @@
 
 .parrafo {
     grid-area: texto;
-    font-size: 30px;
+    font-size: 25px;
     text-align: justify;
     color: rgb(247, 251, 3);
     background-color: rgba(14, 117, 177, 0.537);
